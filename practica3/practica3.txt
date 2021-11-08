@@ -1,0 +1,110 @@
+Ejercicio1
+1-
+-nano indice.txt
+-eliminar la ultima linea
+
+2-
+-git status
+
+3-
+-git checkout indice.txt
+
+4-
+-git status
+
+Ejercici2
+ 1-
+-nano indice.txt
+-eliminar la ultima linea
+-git status
+
+2-
+
+-git add .
+-git status
+
+3-
+
+-git status
+
+4-
+
+-git restore --staged index.txt
+-git reset index.txt
+
+5-
+
+-git status
+
+6-
+-git checkout --indice.txt
+
+7-
+
+-git status
+
+ejercici3
+1
+-nano indice.txt
+-eliminar la ultima linea
+-git status
+
+2
+-rm capitulos/capitulo3.txt
+
+3
+-nano capitulos/capitulo4.txt
+-git status
+
+4
+-git add .
+
+5
+-git status
+
+6
+-git reset .
+
+7
+-git status
+
+8
+-git checkout -- .
+
+9
+-git status
+
+
+ejercici4
+1
+-nano indice.txt
+
+2
+-rm capitulos/capitulo3.txt
+
+3
+-git commit -m "Borrado accidental"
+-git log --oneline
+
+4
+-git status
+
+5
+-git reset --soft HEAD-1
+-git log --oneline
+
+6
+-git status
+
+7
+-git commit -m "Borrado accidental"
+-git log --oneline
+
+8
+-git reset --hard HEAD-1
+-git log --oneline
+
+9
+-git status
+
+
